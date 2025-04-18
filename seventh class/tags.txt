@@ -1,0 +1,10 @@
+some tags that are related to video  in HTML-
+Autoplay, Controls, Loop, muted, poster
+
+Audio tags are-
+Autoplay, Controls, Loop, muted, preload
+
+iframe (to show other website or youtube video in your page)
+
+svg-(define vector-based graphics for the Web)
+
