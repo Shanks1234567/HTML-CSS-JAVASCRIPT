@@ -1,0 +1,10 @@
+px- universal
+vh- fix the height according to screen size(100vh)
+vw- fix the width according to screem size(100vw)
+em- multiply the font size 
+rem-multiply the root font size 
+vmin(minimum side of a screen also work as vh)
+vmax(maximum side of a screen also work as vw)
+min-width(takes minimum width)
+min-height(takes minimum height)
+%- will come from the parent element
