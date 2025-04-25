@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line{
+            color: yellow;
+        } */
+
+        /* .boxes *{
+            color: yellow;
+            border:2px solid red;
+        }
+
+       p,a,.box, [data-color='Primary']{
+            padding-top: 30px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: blue;
+        } */
+
+        /* .box:nth-last-child(1){
+            background-color: red;
+        } */
+
+        .boxes::before{
+            content: 'Junaeid is good';
+            color: red;
+        }
+
+        .boxes::after{
+            content: 'Junaeid is good';
+            color: blue;
+        }
+
+        ::selection{
+            color: green;
+            background-color: black;
+        }
+
+        .box::first-letter{
+            color: peru;
+        }
+
+        input::placeholder{
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div  data-color='Primary'class="box">I am the first box </div>
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+        <input for='Id'type="text"placeholder='Type Your Name'>
+        <label for="Id">Facebook</label>
+    </div>
+</body>
+</html>
