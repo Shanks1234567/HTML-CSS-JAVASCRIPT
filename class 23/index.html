@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+  :root{
+    --color: red;
+    --seccolor: blue;
+    --dis: 30px;
+
+  }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    ul{
+        display: flex;
+       
+    }
+    ul li{
+        list-style: none;
+        padding: var(--dis);
+        border: 2px solid var(--seccolor);
+    }
+
+    .nav{
+        background-color: var(--color);
+
+    }
+
+    .container{
+        background-color: var(--seccolor);
+
+    }
+
+    ul li:first-child{
+        --color: rgb(77, 255, 0);
+        background-color: var(--color);
+    }
+
+
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi omnis
+      id recusandae harum natus, eius vero totam ipsum dolor facilis ex. Sed,
+      consectetur?
+    </div>
+  </body>
+</html>
